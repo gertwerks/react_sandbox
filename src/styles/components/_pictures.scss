@@ -1,0 +1,25 @@
+.picture-container {
+    display: block;
+    width: 65%;
+    margin: 1.5rem auto;
+  
+    .picture-dot {
+      display: inline-block;
+      position: relative;
+      margin: 1.1rem;
+      
+      img{
+        border-radius: 100%;
+      }
+
+      span {
+        position: absolute;
+        top: 30%;
+        bottom: 30%;
+        left:  10%;
+        right: 10%;
+        font-size: 13px;
+        color: white;  
+      }
+    }
+  }
